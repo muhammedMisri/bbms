@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BloodBankManagementSystem.exe" version="1.0.0.1" publicKeyToken="98c8fedc4024389c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BloodBankManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BloodBankManagementSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BloodBankManagementSystem.exe" size="133088">
+      <assemblyIdentity name="BloodBankManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HMnplr2ODBG6M8cajcTML3uNE5/hDAXnjFFiRCJHYl0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BloodBankManagementSystem.exe.config" size="542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ivkrgH2fjFaDSljBPLGUUhcT0+6CV3Cs/d5pxHNSMaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="database.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vp/C+NuuE9Rfi3aIMdr3pIflIaWjDmQltptJHefi5RA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="database_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3MnlopxO+2+l64HzlRlW3CBuRCD1I64rFhqGgCbRBkI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-T134J91\AHMED" issuerKeyHash="94d35a2c38c5c137ba020f1048e1c636aa75ca53" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TcYNYnWP3HLnvSqThI2NpsfiAg3XoOFKeumdmI4yyns=</DigestValue></Reference></SignedInfo><SignatureValue>vayMiypZMCJI6IGQjrQLaoblNB1hdtWUX0C8+rq4pJvCEnDy6NbmMMaX88D8e3QBtNYlcELIlkc6+vgDstfa8m+ChS+FHZ4i2PCRIFu5HQrCFBzttaOAerQ/LxngreEVlUMfRXCmY44UYRb7zrjxXJjg5v+Llhymv1Byc+3jk+o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vy7QwasE4m1a4cvpdEqrx1EwCiPe519YVGK4UnF0DxWOTTQgBehdc5ZE3yniNlGEq9XkLRdnI5p+cKKeCcBhx8PWsIfppRZi8zDiqzG1D4pOaRqEyx6xKQ3gtWwBCaxkQTuCQ8mKD9lYJHphyYD+gTsUhAy+9lyL+3450LXAcYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7bca328e989de97a4ae1a0d70d02e2c7a68d8d84932abde772dc8f75620dc64d" Description="" Url=""><as:assemblyIdentity name="BloodBankManagementSystem.exe" version="1.0.0.1" publicKeyToken="98c8fedc4024389c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-T134J91\AHMED</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+1gbRbfII57R10FSaea9bv6AG6JaEnc7hb2vhR6fxZg=</DigestValue></Reference></SignedInfo><SignatureValue>En642O/z9suATC9pxAiPDOXIyYhomDcXeJ3TndC0Rlp1c1oSPAZOCKtj+Z5kEpVXxWcnmrQ129EosYShZ07Q3DhcuqlyjUdYrTBIfxWYkKrCwHD/siDdHQqE5frcFZUAS03VzWworK5aI+bKdFa51Nm6XlmI9+Y4WvhoH0F1fDM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vy7QwasE4m1a4cvpdEqrx1EwCiPe519YVGK4UnF0DxWOTTQgBehdc5ZE3yniNlGEq9XkLRdnI5p+cKKeCcBhx8PWsIfppRZi8zDiqzG1D4pOaRqEyx6xKQ3gtWwBCaxkQTuCQ8mKD9lYJHphyYD+gTsUhAy+9lyL+3450LXAcYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQH7+i6mr+p7RP/B5eM/tmoDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAMQAzADQASgA5ADEAXABBAEgATQBFAEQwHhcNMjAwMTEzMTIyMzM1WhcNMjEwMTEyMTgyMzM1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAMQAzADQASgA5ADEAXABBAEgATQBFAEQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL8u0MGrBOJtWuHL6XRKq8dRMAoj3udfWFRiuFJxdA8Vjk00IAXoXXOWRN8p4jZRhKvV5C0XZyOafnCingnAYcfD1rCH6aUWYvMw4qsxtQ+KTmkahMsesSkN4LVsAQmsZEE7gkPJig/ZWCR6YcmA/oE7FIQMvvZci/t+OdC1wHGJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHEVIERib81drCaC5f6zSkchrZ8SiPTSsnVzoT218HCYdrwiE55r2rhdSryP71eLthU8qUcSXX+E5cXQy621hBnuxARJ9+jgQeLC4E/lzBkD7siMv946No44eeSh7IpZ0Mq1Reug6DYQI/zzCkcG87TpSb4IsDA9UMCbInOt04hI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
